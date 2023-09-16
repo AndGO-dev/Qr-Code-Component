@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Outfit:wght@400;700&family=Righteous&family=Roboto:wght@100;300;400;700&family=Sarala:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Outfit', sans-serif;
+    font-size: 15px;
+    background-color: hsl(212, 45%, 89%);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 22px;
+}
+
+.container {
+    max-width: 350px;
+    margin: 0 auto;
+}
+
+.card {
+    padding: 18px;
+    background-color: #fff; 
+    border-radius: 12px;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    text-align: center;
+    margin-bottom: 0 1rem;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.text {
+    padding: 22px 10px; 
+    color: hsl(220, 15%, 55%);  
+}
+
+#title {
+    color: hsl(218, 44%, 22%);
+    padding-bottom: 15px;
+}
+
+.attribution { 
+    
+    font-size: 11px; text-align: center;
+    padding-top: 22px;
+    margin: 0 auto; 
+}
+
+.attribution a {
+     color: hsl(228, 45%, 44%); 
+}
